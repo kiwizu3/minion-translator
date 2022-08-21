@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="shortcut icon" href="Favicon.ico" type="image/x-icon" />
+	<title>Minion Translator</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+		crossorigin="anonymous">
+	<link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+	<div class="container h-100">
+		<div class="row text-center justify-content-center h-100">
+			<div class="col-lg-4 col-md-6 col-sm-12 my-auto">
+				<img class="header-image" src="header.gif" alt="">
+				<p class="fw-bold">Let's Talk Banana</p>
+				<div class="w-100 d-flex flex-column">
+					<textarea name="english" id="user-input" cols="30" rows="5"
+						placeholder="Enter in english"></textarea>
+					<button class="btn btn-primary mt-2" id="btn">Translate To Gibberish</button>
+				</div>
+				<p class="fw-bold mt-4">In Gibberish:</p>
+				<div class="w-100 d-flex flex-column">
+					<textarea name="banana" id="output" cols="30" rows="5"
+						placeholder="Your converted Banana Text"></textarea>
+					<div class="d-flex justify-content-end">
+						<button class="btn btn-primary mt-2" onclick="copy()">Copy</button>
+					</div>
+				</div>
+				<div>
+					<small class="text-muted">©2022 <a href="https://kiwiyaaa.vercel.app">Kiwi</a></small>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+
+	<footer>
+		<!-- <a href="https://www.instagram.com/kiwiyaaaa" target="blank">Instagram</a>
+		<a href="https://www.github.com/kiwizu3" target="blank">GitHub</a>
+		<a href="https://twitter.com/kiwiyaaaa" target="blank">Twitter</a> -->
+
+	</footer>
+	<script src="js/app.js" type="text/javascript"></script>
+</body>
+
+</html>
